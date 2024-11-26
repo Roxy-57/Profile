@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #004d00; 
+  border-bottom: 3px solid #ffdf00; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.navBrand {
+  font-size: 1.5rem;
+  color: #ffdf00; 
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navBrand:hover {
+  color: #ffffff; 
+}
+.navLink {
+  font-size: 1rem;
+  color: #ffffff; 
+  transition: color 0.3s;
+}
+
+.navLink:hover {
+  color: #ffdf00; 
+  text-decoration: none;
+}
+
+.navLink a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.navLink a:hover {
+  text-decoration: underline; 
+}

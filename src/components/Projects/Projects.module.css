@@ -1,0 +1,29 @@
+.section {
+  padding: 100px 0;
+  background-image: url('../../../public/images/Project.jpg');
+  background-size: cover;
+  height: 100vh; 
+  scroll-snap-align: start; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #ffdf00; 
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

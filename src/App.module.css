@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #001f3f; 
+  color: white;
+  overflow-x: hidden;
+  position: relative;
+  scroll-snap-type: y mandatory; /* 스크롤 스냅이 되었을때 스냅 위치에서 반드시 멈추도록*/
+  height: 100%;
+}
+
+.snowflakes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* 다른 버튼이 눈송이에 걸리더라도 문제없도록하기위한 속성임 */
+  pointer-events: none;
+  /* 눈송이가 백그라운드 뒤에서 생성되어 다른 요소보다 앞에있도록  설정 후 눈송이가 화면 밖으로 나가지 않도록 overflow시 숨김 */
+  z-index: 1000; 
+  overflow: hidden;
+}
+
+.snowflake {
+  position: absolute;
+  /* 화면 맨위에서 생성 */
+  top: -10%; 
+  left: calc(100% * var(--x)); /* x 위치 설정 */
+  font-size: calc(10px + 20 * var(--scale)); /* 눈송이 크기 */
+  color: white;
+  opacity: 0.8;
+  animation: fall var(--speed) linear infinite;
+  z-index: 1001; /* 눈송이가 다른 요소 위에 오도록 설정 */
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh); 
+  }
+}
+
+section {
+  scroll-snap-align: start;  
+  height: 100vh;  
+}
+
