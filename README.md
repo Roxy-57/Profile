@@ -24,3 +24,8 @@
 - 컴포넌트로 나누어서 구현하였을때 코드의 재사용성이나 구현에 도움이 많이된것 같습니다.
 - 리액트 부트스트랩을 사용하여 기본 스타일 구성하여 제작 소요기간을 단축시킬수 있었습니다.
 - 엄격한 타입스크립트를 사용하여 자잘한 타입 미지정 오류가 발생하였지만 코드를 확인하였을때 코드에 직관적으로 타입이 적혀있어 코드에 역활을 알기 쉬웠습니다.
+
+## 프로젝트 이미지
+| ![홈](https://github.com/user-attachments/assets/19c4dbe1-656c-4ed0-b6d2-27863f9936f9) |![자기소개](https://github.com/user-attachments/assets/53419df2-73b3-49bf-adcc-e59a6c76a067) |
+|----------------------|---------------------|
+|![스킬](https://github.com/user-attachments/assets/70ad3948-32c9-42f1-8409-f48dbfd9f246)| ![프로젝트](https://github.com/user-attachments/assets/3e90796d-cd00-45a5-8e0b-f24199409ae9)|
